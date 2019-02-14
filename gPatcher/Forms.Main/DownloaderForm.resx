@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnDownload.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;listBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnAddToQueue.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnDownload.Name" xml:space="preserve">
+    <value>btnDownload</value>
+  </data>
+  <data name="&gt;&gt;btnDownload.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiRemoveFromQueue.Name" xml:space="preserve">
+    <value>tsmiRemoveFromQueue</value>
+  </data>
+  <data name="&gt;&gt;tsmiRemoveFromQueue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listBox.Name" xml:space="preserve">
+    <value>listBox</value>
+  </data>
+  <data name="&gt;&gt;groupBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;currentProgressBar.Name" xml:space="preserve">
+    <value>currentProgressBar</value>
+  </data>
+  <data name="&gt;&gt;currentProgressBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 96</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        KP/qqCb/6KUk/+WiI//iniH/35of/9uWHP/YkRr/1I0X/9CJFP/Vmjz/+bdq/+yULf4pGgdGAAAAIwAA
+        AAsAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALlhAKLhnj//8sBZ//G6Sf/yvEr/8r1M//G1
+        OP/vrif/7q4p/+2rKP/qqCb/6KYl/+WiI//jniH/35of/9uWHP/Ykhr/1I4X/9CJFf/apVH/+LBc/+iR
+        KvcAAAA7AAAAIQAAAAkAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAC0WABm0YUm//HCX//tt0f/8LlI//G6
+        Sv/yvEz/8bg+//CwKf/wryn/7q4p/+2rKP/rqSf/6KYl/+ajI//inyH/35sf/9yXHf/Ykhr/1Y4X/9KL
+        Gv/itmf/9qlO/9iFJt0AAAA5AAAAHQAAAAYAAAAAAAAAAAAAAAAAAAAAtFcAOcJwDO3suFv/6LFF/+u0
+        Rv/tt0f/8LlI//G7Sv/xukT/8LEr//CwKv/wryr/7q4p/+2rKP/rqSf/6acl/+aiI//jnyH/4Jsf/9yX
+        HP/Zkxr/1Y4Y/9SRI//svHL/8p49/8N5I6gAAAAjAAAACgAAAAAAAAAAAAAAAL1qBkK3XgDl77tn/+y6
+        Wf/vvFf/8r9a//XCW//3xVz/88Nc//G6SP/wsjD/8LAp//CwKv/wryr/764p/+2sKP/rqif/6aYm/+ms
+        Ov/pskz/7LJK/+mwSP/nrEb/5KlE/+SuV//uuGb/7ZQr/9mGJ20AAAAFAAAAAAAAAAAAAAAArU4ASK9R
+        ALSzVwD/sVUA/7RXAP+3WAD/uVsA/7xeAP+9XwD/88Jc/++0OP/vrij/8LAq//CwKv/wryr/764p/+6t
+        KP/sqif/7rlP/9d8EP/afxP/3YAW/96DGf/ghhv/44ge/+aOJP/njiLW6Y4lZgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALpcAP/3xFz/7rU+/+6tKP/vryn/8LAq//Cw
+        Kv/wsCr/764p/+6tKP/zvVD/1HkN/wAAAEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        AADwHxx18B8d//AfHv/wHyD/8B8i//AfI/8=
+</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Downloader</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnAddToQueue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="totalProgressBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 50</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.Parent" xml:space="preserve">
+    <value>groupBox</value>
+  </data>
+  <data name="&gt;&gt;totalProgressBar.Name" xml:space="preserve">
+    <value>totalProgressBar</value>
+  </data>
+  <data name="&gt;&gt;totalProgressBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>347, 197</value>
+  </data>
+  <data name="btnAddToQueue.Text" xml:space="preserve">
+    <value>Add to queue</value>
+  </data>
+  <data name="btnAddToQueue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 23</value>
+  </data>
+  <data name="lblStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 72</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnDownload.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="totalProgressBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.Name" xml:space="preserve">
+    <value>lblStatus</value>
+  </data>
+  <data name="groupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 95</value>
+  </data>
+  <data name="currentProgressBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 34</value>
+  </data>
+  <data name="&gt;&gt;btnAddToQueue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddToQueue.Name" xml:space="preserve">
+    <value>btnAddToQueue</value>
+  </data>
+  <data name="tsmiRemoveFromQueue.Text" xml:space="preserve">
+    <value>Remove from queue</value>
+  </data>
+  <data name="tsmiRemoveFromQueue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 22</value>
+  </data>
+  <data name="btnDownload.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="totalProgressBar.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="groupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnAddToQueue.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tsmiSelectAll.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>Ctrl+A</value>
+  </data>
+  <data name="&gt;&gt;packsDownloader.Name" xml:space="preserve">
+    <value>packsDownloader</value>
+  </data>
+  <data name="&gt;&gt;packsDownloader.Type" xml:space="preserve">
+    <value>gPatcher.Components.Downloading.PacksDownloader, gPatcher, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnAddToQueue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="listBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 56</value>
+  </data>
+  <data name="lblStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnAddToQueue.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="currentProgressBar.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblMessage.Parent" xml:space="preserve">
+    <value>groupBox</value>
+  </data>
+  <data name="totalProgressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 21</value>
+  </data>
+  <data name="listBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnAddToQueue.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="lblStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 13</value>
+  </data>
+  <data name="lblMessage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="btnDownload.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 36</value>
+  </data>
+  <data name="btnDownload.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tsmiSelectAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 22</value>
+  </data>
+  <data name="tsmiSelectAll.Text" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="&gt;&gt;listContextMenu.Name" xml:space="preserve">
+    <value>listContextMenu</value>
+  </data>
+  <data name="&gt;&gt;listContextMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbxAddToQueue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 21</value>
+  </data>
+  <data name="&gt;&gt;lblMessage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="listContextMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 48</value>
+  </data>
+  <data name="btnAddToQueue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 9</value>
+  </data>
+  <data name="&gt;&gt;currentProgressBar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tsmiRemoveFromQueue.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>Del</value>
+  </data>
+  <data name="lblMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cbxAddToQueue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxAddToQueue.Name" xml:space="preserve">
+    <value>cbxAddToQueue</value>
+  </data>
+  <data name="&gt;&gt;currentProgressBar.Parent" xml:space="preserve">
+    <value>groupBox</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DownloaderForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>gPatcher.Controls.General.AutoBgForm, gPatcher, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbxAddToQueue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="&gt;&gt;groupBox.Name" xml:space="preserve">
+    <value>groupBox</value>
+  </data>
+  <data name="&gt;&gt;groupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMessage.Name" xml:space="preserve">
+    <value>lblMessage</value>
+  </data>
+  <data name="&gt;&gt;lblMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblStatus.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="cbxAddToQueue.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;totalProgressBar.Parent" xml:space="preserve">
+    <value>groupBox</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="&gt;&gt;btnDownload.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;totalProgressBar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblMessage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnDownload.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cbxAddToQueue.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDownload.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="currentProgressBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tsmiSelectAll.Name" xml:space="preserve">
+    <value>tsmiSelectAll</value>
+  </data>
+  <data name="&gt;&gt;tsmiSelectAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="currentProgressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 10</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="btnDownload.Text" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="btnDownload.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 58</value>
+  </data>
+  <data name="listBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 37</value>
+  </data>
+  <data name="&gt;&gt;groupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbxAddToQueue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 18</value>
+  </data>
+  <data name="&gt;&gt;listBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+</root>

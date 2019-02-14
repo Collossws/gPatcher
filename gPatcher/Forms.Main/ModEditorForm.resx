@@ -1,0 +1,637 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;tbxName.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tbxSearch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="vidTabPage.ImageKey" xml:space="preserve">
+    <value>Mods_Video.png</value>
+  </data>
+  <data name="tbxName.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 51</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>Dotnetrix.Controls.TabControl, Dotnetrix.TabControl, Version=1.0.1.7, Culture=neutral, PublicKeyToken=ddb3299291faa03f</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAICAAAAEAIACoEAAAJgAAABAQAAABACAAaAQAAM4QAAAoAAAAIAAAAEAAAAABACAAAAAAAIAQ
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAA
+        AAwAAAAJAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAMAAAAIwAAACUAAAAXAAAACQAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAlqbnXtNFFkiQAAAD0AAAApAAAAFgAAAAkAAAACAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAkhrgXBfU0v/PFZn+xlJa4oAAAA8AAAAKAAAABUAAAAGAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUlidvpjd4D/cL7t/ypun/gQOViKAAAAOgAA
+        ABwAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAQAAAANAAAAFQAAABYAAAAWAAAAFgAAABYAAAAWAAAAFgAAABYAAAAYJGGHcXDD7f+i4v//gc38/0yW
+        0P87bZ3/AAAAPQAAACIAAAAWAAAAFgAAABYAAAAWAAAAFgAAABYAAAAWAAAAFgAAABUAAAANAAAABAAA
+        AAAAAAAAAAAADQAAACsAAAA/AAAAQwAAAEMAAABDAAAAQwAAAEMAAABDAAAAQwAAAEMAAABIW46y7vb/
+        //+q3vv/Vrb8/xOb//89bZv/AAAASAAAAEMAAABDAAAAQwAAAEMAAABDAAAAQwAAAEMAAABDAAAAPwAA
+        ACsAAAANAAAAAAAAAAAAAAAVOXaqxD+DvP89grv/PYG6/z2Buv89gbr/PYG6/z2Buv89gbv/PoG7/zyB
+        u/8uda3/f73b/+38//9evP//E5j//yCQ7v89bJn/Q4e+/z+EvP8+grv/PYK6/z2Buv89gbr/PYG6/z2C
+        u/8/g7z/OXaqxAAAABUAAAAAAAAAAAAAABY+g7z/esjz/3LC7/9ywu//csLv/3LC7/9ywu//csLv/3LC
+        7/9ywu//csLv/3LC7/8pdMT/ft3//9/2//9ivv//FZj//xeb//87aJX/ecnz/3TF8f9ywu//csLv/3LC
+        7/9ywu//csLv/3rI8/8+g7z/AAAAFgAAAAAAAAAAAAAAFj2Bu/99xu//a7vp/2y76f9su+n/bLvp/2y7
+        6f9su+n/bLvp/2y76f9su+n/bbzp/26+6v8qdMP/d8f0/+D3//9ivv//FZj//xaZ//84ZZL/c8Lt/26+
+        6/9svOn/bLvp/2y76f9ru+n/fcbv/z2Bu/8AAAAWAAAAAAAAAAAAAAAWPIG6/4PI7v9ouOb/abjm/2m4
+        5v9puOb/abjm/2m45v9puOb/abjm/2m45v9puOb/a7rn/2y76P8qdMP/f93//9/2//9ivf//FZf//xWZ
+        //84ZJL/cL/q/2u76P9pueb/abjm/2i45v+DyO7/PIG6/wAAABYAAAAAAAAAAAAAABY8gbv/isru/2a2
+        5f9otuX/aLbl/2i25f9otuX/aLbl/2i25f9otuX/aLbl/2i25f9otuX/arjm/2u55/8qdML/f93//9/2
+        //9ivf//FZf//xaZ//84ZZL/b73q/2u56P9ot+b/Zrbl/4rK7v88gbv/AAAAFgAAAAAAAAAAAAAAFjyB
+        u/+RzO3/ZLPj/2a04/9mtOP/ZrTj/2a04/9mtOP/ZrTj/2a04/9mtOP/ZrTj/2a04/9mtOP/aLbk/2i3
+        5P8rdMP/f93//9/2//9ivf//FZf//xaZ//85ZpP/XqbS/2i35f9ktOT/kczt/zyBu/8AAAAWAAAAAAAA
+        AAAAAAAWO4G7/5fP7v9hsuH/Y7Ph/2Sz4f9ks+H/ZLPh/2Sz4f9ks+H/ZLPh/2Sz4f9ks+H/ZLPh/2Sz
+        4f9ks+H/ZbXi/2a24v8rdMP/f93//9/2//9ivf//FZf//xaZ//85ZpP/arnl/2O14/+Xz+//O4G7/wAA
+        ABYAAAAAAAAAAAAAABY6gbv/ntHt/16v3/9hsd//YrHf/2Kx3/9isd//YrHf/2Kx3/9isd//YrHf/2Kx
+        3/9isd//YrHf/2Kx3/9isd//Y7Pf/2Sz3/8rdcP/gN3//9/2//9ivf//FZf//xaZ//84ZZP/ZLbj/6DU
+        8P87gbz/AAAAFgAAAAAAAAAAAAAAFjqBu/+m1O//W63c/1+v3f9gr93/YK/d/2Cv3f9gr93/YK/d/2Cv
+        3f9gr93/YK/d/2Cv3f9gr93/YK/d/2Cv3f9gr93/YbDd/2Kx3f8sdcP/gN7//9/2//9ivf//FJj//xKZ
+        //8vZpv/qNz5/zqDv/8AAAAWAAAAAAAAAAAAAAAWOYC7/63Y7/9Zq9r/Xa3b/16t2/9erdv/Xq3b/16t
+        2/9erdv/Xq3b/16t2/9erdv/Xq3b/16t2/9erdv/Xq3b/16t2/9erdv/X6/b/1Oi1f8sdcT/gN3//9/2
+        //9fv///Cpr//4t6bv9/cWf/NojG/wAAACIAAAAGAAAAAAAAABY5gLv/tNzw/1eo2f9cqtr/Xava/12r
+        2v9dq9r/Xava/12r2v9dq9r/Xava/12r2v9dq9r/Xava/12r2v9dq9r/Xava/12r2v9eq9r/X63b/1+t
+        2v8sdcT/fd7//9f5//+rnJP/npmU/3Nwa/97dmn/AAAAPQAAABwAAAAGAAAAFjmAu/+94PH/VafX/1qp
+        2P9bqdj/W6nY/1up2P9bqdj/W6nY/1up2P9bqdj/W6nY/1up2P9bqdj/W6nY/1up2P9bqdj/W6nY/1up
+        2P9cqtj/XKvZ/1ur2f8nd8n/vK6l/+rl4v/DwsD/mpyX/3t/cv+cac3/AAAANwAAABEAAAAWO4G8/8vm
+        9f9Wp9f/WanY/1up2P9bqdj/W6nY/1up2P9bqdj/W6nY/1up2P9bqdj/W6nY/1up2P9bqdj/W6nY/1up
+        2P9bqdj/W6nY/1up2P9bqtj/WqrY/1Sq2/+1pZv/3djU/+jp5f+GiYH/yozJ/8GEuv+Ya8j/AAAAEQAA
+        ABY+hL3/OX+6/zl/uv86f7r/O3+6/zt/uv87f7r/O3+6/zt/uv87f7r/O3+6/zt/uv87f7r/O3+6/zt/
+        uv87f7r/O3+6/zt/uv87f7r/O3+6/zt/uv87f7r/OH+7/y59vv+xpZv/nJyQ/9yi2//Qmc7/yI/C/59w
+        yv8AAAAGAAAAFj6Evf9nsNn/e7rd/3u63f97ut3/e7rd/3u63f97ut3/e7rd/3u63f97ut3/e7rd/3u6
+        3f97ut3/e7rd/3u63f97ut3/e7rd/3u63f97ut3/e7rd/3u63f97ut7/d7nf/2664P/LhNT/6rHi/9ym
+        1v+te8z/AAAABgAAAAAAAAAWPYK8/4K93/9OoM//UKHP/1Gh0P9RodD/UaHQ/1Gh0P9RodD/UaHQ/1Gh
+        0P9RodD/UaHQ/1Gh0P9RodD/UaHQ/1Gh0P9RodD/UaHQ/1Gh0P9RodD/UaHQ/1Ch0P9QodD/TKLQ/0Oj
+        0P/MhtH/xIXR/wAAABYAAAAAAAAAAAAAABY7gbz/nczl/0ydzf9Qn87/UJ/P/1Cfz/9Qn8//UJ/P/1Cf
+        z/9Qn8//UJ/P/1Cfz/9Qn8//UJ/P/1Cfz/9Qn8//UJ/P/1Cfz/9Qn8//UJ/P/1Cfz/9Qn8//UJ/P/1Cf
+        z/9Pn8//SZ7O/5bN5f8wgrv/AAAAFgAAAAAAAAAAAAAAFjqBvP+72+3/RZjK/0may/9Kmsv/SprL/0qa
+        y/9Kmsv/SprL/0qay/9Kmsv/SprL/0qay/9Kmsv/SprL/0qay/9Kmsv/SprL/0qay/9Kmsv/SprL/0qa
+        y/9Kmsv/SprL/0may/9FmMr/udvt/zmBvP8AAAAWAAAAAAAAAAAAAAAQO4G8/5PE4P+QwN3/kcDd/5LB
+        3f+Swd3/ksHd/5LB3f+Swd3/ksHd/5LB3f+Swd3/ksHd/5LB3f+Swd3/ksHd/5LB3f+Swd3/ksHd/5LB
+        3f+Swd3/ksHd/5LB3f+Swd3/kcDd/5DA3f+TxOD/O4G8/wAAABAAAAAAAAAAAAAAAAU6f7rqg9Dw/3zJ
+        7P97yOv/fMjr/3zI6/98yOv/fMjr/3zI6/98yOv/fMjr/3zI6/98yOv/fMjr/3zI6/98yOv/fMjr/3zI
+        6/98yOv/fMjr/3zI6/98yOv/fMjr/3zI6/97yOv/fMns/4PQ8P89f7vqAAAABQAAAAAAAAAAAAAAAAAA
+        AAY5frr/v+b3/3TA5v90wOX/dsDl/3bA5f92wOX/dsDl/3bA5f92wOX/dsDl/3bA5f92wOX/dsDl/3bA
+        5f92wOX/dsDl/3bA5f92wOX/dsDl/3bA5f92wOX/dMDl/3TA5v+/5vf/OX66/wAAAAYAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAY3frn/sd3y/2664f9vuuH/cLrh/3C64f9wuuH/cLrh/3C64f9wuuH/cLrh/3C6
+        4f9wuuH/cLrh/3C64f9wuuH/cLrh/3C64f9wuuH/cLrh/2+64f9uuuH/sd3x/zd+uf8AAAAGAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY5f7r/pdXt/2m23v9qtt3/arbd/2q23f9qtt3/arbd/2q2
+        3f9qtt3/arbd/2q23f9qtt3/arbd/2q23f9qtt3/arbd/2q23f9qtd3/aLXd/6XV7f85f7r/AAAABgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY6gLv/gLnc/2ay2/9nstv/Z7Lb/2ey
+        2/9nstv/Z7Lb/2ey2/9nstv/Z7Lb/2ey2/9nstv/Z7Lb/2ey2/9nstv/Z7Lb/2ay2/+Yzej/On+6/wAA
+        AAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ9f7iuPoO8/z6D
+        vP8+g7z/PoO8/z6DvP8+g7z/PoO8/z6DvP8+g7z/PoO8/z6DvP8+g7z/PoO8/z6DvP8+grz/PoK8/zx/
+        uK4AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+H////gf///4B///+AP///wB//AAAAAwAA
+        AAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAABAAAAAAAAAAAAAAAAAAAAAAAA
+        AAEAAAADAAAAAwAAAAMAAAADAAAAA4AAAAfAAAAP4AAAH/AAAD/4AAB/KAAAABAAAAAgAAAAAQAgAAAA
+        AABABAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAzAAAAMwAAADMAAAAzAAAAMwAAADMAAAAzAAAAMwAA
+        ADMAAAAzAAAAMwAAADMAAAAzAAAAMAAAAAA/gbryP4O8/z2Cu/89grr/PYK6/zyBuv80fLn/xt3w/1Fk
+        c/9HZIL/SYrU/8ve7P80frn/O4K7/z+BuvIAAAAAPoO8/3zI8v9xwe7/ccHu/3HB7v9vwO3/ab3t/9r0
+        //9WfZj/fqW1/4rS/v8qX5P/5Pr//3bH8/87gbz/AAAAADyBu/+Fye7/abnn/2m55/9quef/abjm/2S2
+        5v/a7/v/Qars/6Pt//+a3v3/DJb//yhglv/o/f//MX68/wAAAAA8gbv/j8vt/2Sz4/9mtOP/ZrTj/2a0
+        4/9jsuP/XrHi/9zu+f8mcsL/PMT//x6q//+BrdP/e29m/8nd6/8AAAAAO4G7/5vQ7f9fsN//YbHf/2Kx
+        3/9isd//YbHf/1+v3v9brt7/3O/4/yZ0xf+v2+//kod//8C9tv92dWn/AAAAMzqAu/+n1e7/Wqzb/16u
+        3P9frtz/X67c/1+u3P9ertz/XK3b/1er2//R6Pj/i350/9jUz/+KioP/oX6a/5hnyv85gbv/ttvv/1eo
+        2P9bqtn/XKrZ/1yq2f9cqtn/XKrZ/1yq2f9Zqdn/U6fa/9Dt/v+FgHb/47Df/8uVxv+ue87/O4K8/8jl
+        9P9Vp9X/WanW/1qq1/9aqtf/WqrX/1qq1/9aqtf/WanX/1ao1/9Optf/ze77/8aD0f/BhNH/AAAAAD2E
+        vf84f7r/On+6/zyAuv89gbv/PYG7/z2Bu/89gbv/PYG7/z2Bu/88gLr/OX+6/y97uP+/3Ov/vd3r/wAA
+        AAA8g73/m8vl/0uezv9Nn8//Tp/P/06fz/9On8//Tp/P/06fz/9On8//Tp/P/0yezv9InM3/k8fj/zF9
+        uf8AAAAAOoG8/5PE4P+Rwd7/ksHe/5LB3v+Swd7/ksHe/5LB3v+Swd7/ksHe/5LB3v+Swd7/kMHe/5LD
+        4P85gLv/AAAAADmAvKnA6Pf/dMLo/3bC5/93w+j/d8Po/3fD6P93w+j/d8Po/3fD6P93w+j/dsLn/3TC
+        6P/A6Pf/O4C66AAAAAAAAAAAOH+6/7be8f9ntd3/abbd/2m23f9ptt3/abbd/2m23f9ptt3/abbd/2e1
+        3f+23vH/OH+6/wAAAAAAAAAAAAAAAAAAAAA6grrnPYK8/z6CvP8+grz/PoK8/z6CvP8+grz/PoK8/z6C
+        vP89grz/PIC66AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASYAAAEmAAABJgAAASYAAAEmAAAAJgAAACYAAAAmAAAB
+        JgAAASYAAAEmAAABJgAAASYAgAMmAMAHJgD//yYA
+</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ModEditor</value>
+  </data>
+  <data name="&gt;&gt;bgmTabPage.Name" xml:space="preserve">
+    <value>bgmTabPage</value>
+  </data>
+  <data name="&gt;&gt;bgmTabPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblName.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;genEditor.Name" xml:space="preserve">
+    <value>genEditor</value>
+  </data>
+  <data name="&gt;&gt;genEditor.Type" xml:space="preserve">
+    <value>gPatcher.Controls.Modding.ModEditor, gPatcher, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="genTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 33</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>479, 317</value>
+  </data>
+  <data name="menuInferior.Size" type="System.Drawing.Size, System.Drawing">
+    <value>479, 42</value>
+  </data>
+  <data name="menuInferior.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="menuInferior.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="vidTabPage.Text" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="vidTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>455, 183</value>
+  </data>
+  <data name="&gt;&gt;genTabPage.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;lblName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblName.Name" xml:space="preserve">
+    <value>lblName</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 8</value>
+  </data>
+  <data name="&gt;&gt;lblName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="genEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;menuInferior.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;genTabPage.Name" xml:space="preserve">
+    <value>genTabPage</value>
+  </data>
+  <data name="&gt;&gt;genTabPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vidTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 33</value>
+  </data>
+  <data name="tabControl.ShowToolTips" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bgmTabPage.ImageKey" xml:space="preserve">
+    <value>Mods_Music.png</value>
+  </data>
+  <data name="&gt;&gt;bgmTabPage.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="tabControl.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>93, 28</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="genTabPage.ImageKey" xml:space="preserve">
+    <value>Mods_General.png</value>
+  </data>
+  <data name="lblName.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;genTabPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="bgmEditor.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;vidTabPage.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="genTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;vidTabPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vidTabPage.Name" xml:space="preserve">
+    <value>vidTabPage</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxSearch.Name" xml:space="preserve">
+    <value>tbxSearch</value>
+  </data>
+  <data name="&gt;&gt;tbxSearch.Type" xml:space="preserve">
+    <value>Ginpo.Controls.ImageTextBox, ginpo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;genEditor.Parent" xml:space="preserve">
+    <value>genTabPage</value>
+  </data>
+  <data name="lblName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 9</value>
+  </data>
+  <data name="&gt;&gt;menuInferior.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;genEditor.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;bgmTabPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;vidTabPage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbxSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="menuInferior.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>255, 42</value>
+  </data>
+  <data name="bgmEditor.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="bgmEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>449, 177</value>
+  </data>
+  <data name="&gt;&gt;menuInferior.Type" xml:space="preserve">
+    <value>gPatcher.Controls.General.MenuInferior, gPatcher, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;menuInferior.Name" xml:space="preserve">
+    <value>menuInferior</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbxName.Name" xml:space="preserve">
+    <value>tbxName</value>
+  </data>
+  <data name="&gt;&gt;tbxName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabImageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABk
+        CwAAAk1TRnQBSQFMAgEBAwEAAUQBBgFIAQYBEAEAARABAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABEAMAAQEBAAEgBgABEBoAA04BmQOMAf8DjAH/A4wB/wOMAf8DjAH/A4wB/wOMAf8DjAH/A4wB/wOM
+        Af8DjAH/A04BmRAAAxYBHwJaAVcBvQHWAYYBAAH/AcIBBwEAAf8BwgEHAQAB/wJcAVkBzAI+AT0BagMK
+        AQ0YAAJZAVcBvwNeAeUDXgHlA14B5QNeAeUDXgHlA14B5QNeAeUDXgHlA14B5QNeAeUDXgHlA14B5QJZ
+        AVcBv0wAA6Et/wOMAf8MAAMWAR4CZQFSAfQB3wGVAQAB/wHRAYkBAAH/AcwBggEAAf8BzAGCAQAB/wHF
+        AQwBAAH/AcABBgEAAf8CNQE0AVUYAAJ4AS0B/gQAA14B5QNNAfoDXAH4AWUBYQFSAfQCYgFJAfYCXwFT
+        AfsDWQHyA00B+gFAAZQBqAH9A14B5QQAAl8BLgH7TAADoQX/Ad8BwwHAAf8B3wHDAcAB/wHfAcMBwAH/
+        Ad8BwwHAAf8B2AG8AbgB/wHSAbYBsgH/AcwBrwGsAf8BzAGvAawB/wHMAa8BrAX/A4wB/wwAA1EBogH1
+        AcUBAAH/AeIBnAEAAf8B3QGXAQAB/wHWAY8BAAH/AdYBjwEAAf8B0AGHAQAB/wHKARABAAH/AcsBgAEA
+        Af8YAAJ4AS0B/gNeAeUDXgHlAysB/ANfAfsCagFHAfkDTQH6AqgBQAH9AagCQAH9A1wB+AJTAV8B+wNe
+        AeUDXgHlAl8BLgH7TAADoS3/A4wB/wwAAl4BWAHdAfgBzAEAAf8B7wG5AQAB/wHmAaIBAAH/AeEBnAEA
+        Af8B4QGcAQAB/wHbAZQBAAH/AdYBjgEAAf8B1gGMAQAB/xgAA0AB/QQAA14B5QJ/AVMB/gJ/AVoB/gJ/
+        AVoB/gJ/AVoB/gJ/AVoB/gJ/AVoB/gF/AWwBUwH+AV4CUwH+A14B5QQAAl8BLgH7TAADoQX/Ad8BwwHA
+        Af8B3wHDAcAB/wHfAcMBwAH/Ad8BwwHAAf8B2AG8AbgB/wHSAbYBsgH/AcwBrwGsAf8BzAGvAawB/wHM
+        Aa8BrAX/A4wB/wwAAmABWQHrAfgBzAEAAf8B8gHHAQAB/wHrAbMBAAH/AeEBnAEAAf8B4QGcAQAB/wHb
+        AZQBAAH/AmEBXQHiAagBmQFAAf0IAAJOAU0BlgwAA0AB/QNeAeUDXgHlAf4BuwEAAf8B/gG9AQAB/wH+
+        AbwBAAH/AfwBvAEAAf8B/AG8AQAC/wG9AQAB/wH4AboBAAH/An8BUwH+A14B5QNeAeUCXwEuAftMAAOh
+        Lf8DjAH/DAADQAFwAeIBqAEAAf8B+QHPAQcB/wH1Ac4BCAH/AfMBxAEAAf8B8gG9AQAB/wHoAakBAAH/
+        AdsBowEAAf8BqAGnAUAB/QgAAd0BmAEAAf8DJAE2CAADKwH8BAADXgHlAf0BuwEAAf8B/QG7AQAB/wH8
+        AboBAAH/AfsBuQEAAf8B+wG5AQAB/wHxAbEBAAH/AQoCAAH/AwAB/wNeAeUEAAJfAS4B+0wAA6EF/wHf
+        AcMBwAH/Ad8BwwHAAf8B3wHDAcAB/wHfAcMBwAX/AwAB/wMAAf8BCgIAAf8BnQGFAQAF/wOMAf8MAAME
+        AQUCSgFJAYkCYgFIAfYBqAGMAUAB/QJfAScB+wJXAVYBuAM9AWkB2wGjAQAB/wHrAbEBAAH/CAACXAFX
+        Ad8CTQFMAZEIAAJNAS4B+gNeAeUDXgHlAf8BuwEAAv8BuwEAAv8BugEAAv8BugEAAv8BugEAAf8DAAH/
+        AgABAQH/AgABtQH/A14B5QNeAeUDQAH9TAADoRn/AwAB/wGUAZgBAAH/AdYBvAEMAf8B6AHOAZoF/wOM
+        Af8UAAMEAQYDDQERAwgBCwgAAdsBowEAAf8B7gG1AQAB/wgAAlgBVgG7AlcBVQG3CAACagFBAfkEAANe
+        AeUDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNeAeUEAAJ4AS0B/kwAA6EF/wHfAcMBwAH/
+        Ad8BwwHAAf8B3wHDAcAB/wHfAcMBwAb/AaoBAAL/AZ0BAAL/AbcBAwL/AccBggX/A4wB/ygAAdsBowEA
+        Af8B7gG0AQAB/wgAAlkBVwG/A1UBtQgAAmoBQQH5A14B5QNeAeUCAAHWAf8CAAGkAf8CAAGeAf8DAAH/
+        AQUBBAEAAf8DAAH/AgABDgH/AgABjAH/A14B5QNeAeUCeAEtAf5MAAOhGf8B/gHBAZ0B/wH+AbIBiwL/
+        Ac4BqwL/AeUBxAX/A4wB/ygAAdsBowEAAf8B7gGzAQAB/wQAAxgBIQNdAe0CUAFPAZsIAAJqAUEB+QQA
+        A14B5QF5AVkBfwH+AY0CAAH/AwAB/wGXAgAB/wHhAaABAAH/AwAB/wIAAbAB/wIAAZgB/wNeAeUEAAIJ
+        AQAB/0wAA6EF/wHfAcMBwAH/Ad8BwwHAAf8B3wHDAcAB/wHfAcMBwBH/A+0B/wPbAf8DjAH/KAAB2wGj
+        AQAB/wHvAbMBAAH/AxgBIQFJAkgBhwH/AbwBAAH/AzcBWwgAAmoBQQH5A14B5QNeAeUCfwF1Af4BpgEO
+        AQAB/wGsAQkBAAH/AcIBlQEAAf8B/gG6AQAB/wMAAf8BAAGHAaoB/wEAAZgBuwH/A14B5QNeAeUCCQEA
+        Af9MAAOhHf8DoQH/A6EB/wOhAf8DoQH/A4wB/ygAAdsBowEAAf8B/QHJAQcB/wFRAk8BnAJiAVgB6QJl
+        AV4B5QMLAQ8IAAJqAUEB+QQAA14B5QGcAagBjwH9A38C/gHPAQAC/wHOAQAC/wHKAQAB/wHJAZ8BAAH/
+        AwAB/wIAAaQB/wNeAeUEAAIJAQAB/0wAA6Ed/wOhCf8D0AH/A4wB/ygAAdsBowEAAf8B/QHJAQcB/wNf
+        AfsB/QHJAQcB/wMvAUoMAAJqAUEB+QNeAeUDXgHlAn8BaQH+Af8BzgEAAv8BzwEAAv8BzwEAAv8BzgEA
+        Av8BygEAAf8BwQGYAQAB/wGmAYQBAAH/A14B5QNeAeUCCQEAAf9MAAOhBf8BuQGtAQAB/wG0AacBAAH/
+        Aa8BoQEAAf8BrAGdAQAB/wGpAZkBAAH/AaYBlQEAAf8DoQX/A9AB/wOMAf8sAAHbAaMBAAH/Af0ByQEH
+        Af8B/QHJAQcB/wNEAXsQAAJqAUEB+QQAA14B5QJ/AWUB/gJ/AWUB/gJ/AWUB/gH/Ac4BAAL/Ac4BAAL/
+        Ac4BAAL/Ac0BAAH/Af4ByQEAAf8DXgHlBAACCQEAAf9MAAOhHf8DoQH/A9AB/wOMBf8sAAHbAaMBAAH/
+        Af0ByQEHAf8CWgFXAb0UAAJaAVcBvQNeAeUDXgHlA14B5QNeAeUDXgHlA14B5QNeAeUDXgHlA14B5QNe
+        AeUDXgHlA14B5QJaAVgBwEwAA04BmQOhAf8DoQH/A6EB/wOhAf8DoQH/A6EB/wOhAf8DoQH/A4wB/zQA
+        AdsBowEAAf8BvQGMAQAB/5QAAUIBTQE+BwABPgMAASgDAAFAAwABEAMAAQEBAAEBBQABgBcAA/8BAAHA
+        AQEB4AEfAYABAQIAAcABAQHAAR8BoAEFAgABwAEBAcABHwGAAQECAAHAAQEBwAEfAaABBQIAAcABAQHA
+        ARsBgAEBAgABwAEBAcABGQGgAQUCAAHAAQEBwAEZAYABAQIAAcABAQHxAZkBoAEFAgABwAEBAf8BmQGA
+        AQECAAHAAQEB/wGRAaABBQIAAcABAQH/AYEBgAEBAgABwAEBAf8BgQGgAQUCAAHAAQEB/wGDAYABAQIA
+        AcABAwH/AYcBoAEFAgABwAEDAf8BjwGAAQECAAHAAQ8B/wGfAv8YAAs=
+</value>
+  </data>
+  <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="bgmEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;tbxSearch.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabImageList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabImageList.Name" xml:space="preserve">
+    <value>tabImageList</value>
+  </data>
+  <data name="bgmTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 33</value>
+  </data>
+  <data name="tbxSearch.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbxSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 24</value>
+  </data>
+  <data name="vidEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>449, 177</value>
+  </data>
+  <data name="vidEditor.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tbxName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 22</value>
+  </data>
+  <data name="bgmTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>455, 183</value>
+  </data>
+  <data name="bgmTabPage.Text" xml:space="preserve">
+    <value>BGM</value>
+  </data>
+  <data name="&gt;&gt;tbxSearch.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="genEditor.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuInferior.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="tbxName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 25</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="bgmTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ModEditorForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>gPatcher.Controls.General.AutoBgForm, gPatcher, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>495, 332</value>
+  </data>
+  <data name="tbxSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 55</value>
+  </data>
+  <data name="lblName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbxName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="genEditor.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="genEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>449, 177</value>
+  </data>
+  <data name="&gt;&gt;vidEditor.Parent" xml:space="preserve">
+    <value>vidTabPage</value>
+  </data>
+  <data name="genTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>455, 183</value>
+  </data>
+  <data name="genTabPage.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="menuInferior.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 275</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="bgmTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="genTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;bgmEditor.Name" xml:space="preserve">
+    <value>bgmEditor</value>
+  </data>
+  <data name="&gt;&gt;bgmEditor.Type" xml:space="preserve">
+    <value>gPatcher.Controls.Modding.ModEditor, gPatcher, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bgmEditor.Parent" xml:space="preserve">
+    <value>bgmTabPage</value>
+  </data>
+  <data name="vidEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;vidEditor.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;bgmEditor.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbxSearch.WaterMarkText" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="vidTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;vidEditor.Type" xml:space="preserve">
+    <value>gPatcher.Controls.Modding.ModEditor, gPatcher, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;vidEditor.Name" xml:space="preserve">
+    <value>vidEditor</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>463, 220</value>
+  </data>
+  <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="vidEditor.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="vidTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbxName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+</root>

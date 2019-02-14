@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProjectGuid>{1CF6DCD0-F6DD-4F40-AD15-06F52F3E6F36}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>gPatcher</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>false</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>false</DebugSymbols>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>pdbonly</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="ginpo">
+      <HintPath>.\gPatcherReferences\ginpo.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="Dotnetrix.TabControl">
+      <HintPath>.\gPatcherReferences\Dotnetrix.TabControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Ionic.Zip">
+      <HintPath>.\gPatcherReferences\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Helpers\GlobalDataHolding\Preset.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Helpers\GlobalDataHolding\Collections\ReadOnlyObservableCollectionModFiles.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\BackgroundImages.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>BackgroundImages.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Components.Downloading\Download.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Components.Downloading\DownloadCompletedArgs.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Forms.ProgressDialogs\ZipExportDialog.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>ZipExportDialog.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Helpers\GlobalDataHolding\PresetsManager.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Components.Downloading\DownloadProgressChangedArgs.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Helpers\GlobalDataHolding\ModFile.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Components.Patching\FilePatchingProgressChangedArgs.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Helpers\GlobalDataHolding\FileAddedEventHandler.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Controls.Modding\FileEnabledChanged.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Helpers\GlobalDataHolding\FileRemovedEventHandler.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Forms.ProgressDialogs\BaseProgressDialog.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>BaseProgressDialog.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Forms.ProgressDialogs\FolderImportDialog.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>FolderImportDialog.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Helpers\GlobalDataHolding\ModPack.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Controls.Modding\ModEditor.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>ModEditor.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Components.UpdateChecking\UpdateCheckFinishedArgs.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Helpers\GlobalDataHolding\ModPacksManager.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Helpers\ModPlayer.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Controls.General\GrayPanel.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="gPatcher\Helpers\PatchInfoReading\Adler32.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Helpers\GlobalDataHolding\GlobalData.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Components.UpdateChecking\UpdatesAvailable.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Forms.Main\FrModsManager.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>FrModsManager.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Forms.Sub\NewModDialog.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>NewModDialog.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Components.Downloading\DownloadCompletedEventHandler.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Components.Downloading\DownloadProgressChangedEventHandler.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Components.UpdateChecking\Updater.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="gPatcher\Components.Downloading\DownloadStartedEventHandler.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Helpers\SearchCriterias.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Controls.General\MenuInferior.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>MenuInferior.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Helpers\GlobalDataHolding\ElswordFilesManager.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Components.Patching\PatchInfo.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Helpers\PatchInfoReading\PatchInfoEntry.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Helpers\PatchInfoReading\PatchInfoReader.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Forms.ProgressDialogs\ZipImporting\BadPasswordDialog.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>BadPasswordDialog.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Components.Downloading\PacksDownloader.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="gPatcher\Components.Patching\BackgroundFilePatcherProgressChangedEventHandler.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Forms.ProgressDialogs\ZipImporting\ZipImportDialog.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>ZipImportDialog.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Components.Patching\BackgroundFilePatcherRunWorkerCompleted.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Forms.Main\DownloaderForm.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>DownloaderForm.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Controls.General\AutoBgForm.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gPatcher\Components.General\MyWebClient.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="gPatcher\Helpers\MsgBox.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Helpers\SettingsHelper.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Icons.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>Icons.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Helpers\Paths.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Images.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>Images.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Helpers\GlobalDataHolding\Collections\ObservableCollectionModFiles.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Images16px.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>Images16px.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Components.Patching\BackgroundFilePatcher.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="gPatcher\Forms.Sub\AboutDialog.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>AboutDialog.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Images32px.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>Images32px.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Controls.General\MyDataGridView.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="gPatcher\Controls.General\ToggleButton.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="gPatcher\Localization\Text.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>Text.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Program.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Properties\Resources.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Helpers\GlobalDataHolding\LocaleManager.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Forms.Main\FrHome.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>FrHome.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Forms.Main\ModEditorForm.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>ModEditorForm.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Controls.Modding\ModsSelector.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>ModsSelector.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Forms.Sub\FrSettings.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>FrSettings.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="gPatcher\Properties\Settings.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="gPatcher\BackgroundImages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>BackgroundImages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gPatcher\Forms.ProgressDialogs\ZipExportDialog.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ZipExportDialog.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gPatcher\Forms.ProgressDialogs\BaseProgressDialog.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>BaseProgressDialog.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gPatcher\Forms.ProgressDialogs\FolderImportDialog.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FolderImportDialog.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gPatcher\Controls.Modding\ModEditor.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ModEditor.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gPatcher\Forms.Main\FrModsManager.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FrModsManager.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gPatcher\Forms.Sub\NewModDialog.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>NewModDialog.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gPatcher\Controls.General\MenuInferior.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MenuInferior.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gPatcher\Forms.ProgressDialogs\ZipImporting\BadPasswordDialog.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>BadPasswordDialog.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gPatcher\Forms.ProgressDialogs\ZipImporting\ZipImportDialog.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ZipImportDialog.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gPatcher\Forms.Main\DownloaderForm.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DownloaderForm.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gPatcher\Icons.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Icons.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gPatcher\Images.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Images.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gPatcher\Images16px.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Images16px.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gPatcher\Forms.Sub\AboutDialog.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AboutDialog.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gPatcher\Images32px.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Images32px.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gPatcher\Localization\Text.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Text.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gPatcher\Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gPatcher\Forms.Main\FrHome.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FrHome.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gPatcher\Forms.Main\ModEditorForm.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ModEditorForm.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gPatcher\Controls.Modding\ModsSelector.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ModsSelector.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gPatcher\Forms.Sub\FrSettings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FrSettings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gPatcher.app.manifest" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,2 +1,2 @@
-# gpatcher
-old gpatcher source code
+# Gpatcher-source
+A mod patcher created for Elsword.
